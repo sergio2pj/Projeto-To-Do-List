@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To-Do Gamificado</title>
+  </head>
+  <body>
+    <main class="card">
+      <header class="card__header">
+        <div class="card__info">
+          <h1 class="card__title">To-Do Gamificado</h1>
+          <p class="card__subtitle">XP: 0 / 100</p>
+        </div>
+        <div class="card__avatar">JS</div>
+      </header>
+      <div class="card__progress-container">
+        <div id="barra-progresso-fill" class="card__progress-fill"></div>
+      </div>
+      <form action="submit" id="form-tarefa" class="card__form">
+        <input type="text" name="" id="input-tarefa" class="card__input" />
+        <button type="submit" class="card__button"></button>
+      </form>
+      <ul id="lista-tarefas" class="card__list"></ul>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
